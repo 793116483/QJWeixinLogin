@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "ThirdPartyLoginTools.h"
+
 @interface ViewController ()
 
 @end
@@ -35,6 +37,7 @@
 -(void)weixinLoginBtnDidClicked
 {
     NSLog(@"weixinLoginBtnDidClicked");
+    [ThirdPartyLoginTools weChatLogin:self delegate:self];
 }
 
 
