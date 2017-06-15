@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F21234541EF224130044918A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F21234531EF224130044918A /* main.m */; };
+		F21234571EF224130044918A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F21234561EF224130044918A /* AppDelegate.m */; };
+		F212345A1EF224130044918A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F21234591EF224130044918A /* ViewController.m */; };
+		F212345D1EF224130044918A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F212345B1EF224130044918A /* Main.storyboard */; };
+		F21234601EF224130044918A /* QJWeixinLogin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F212345E1EF224130044918A /* QJWeixinLogin.xcdatamodeld */; };
+		F21234621EF224130044918A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F21234611EF224130044918A /* Assets.xcassets */; };
+		F21234651EF224130044918A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21234631EF224130044918A /* LaunchScreen.storyboard */; };
+		F21234701EF224130044918A /* QJWeixinLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F212346F1EF224130044918A /* QJWeixinLoginTests.m */; };
+		F212347B1EF224130044918A /* QJWeixinLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F212347A1EF224130044918A /* QJWeixinLoginUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F212346C1EF224130044918A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F21234471EF224130044918A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F212344E1EF224130044918A;
+			remoteInfo = QJWeixinLogin;
+		};
+		F21234771EF224130044918A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F21234471EF224130044918A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F212344E1EF224130044918A;
+			remoteInfo = QJWeixinLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F212344F1EF224130044918A /* QJWeixinLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QJWeixinLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21234531EF224130044918A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F21234551EF224130044918A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F21234561EF224130044918A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F21234581EF224130044918A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F21234591EF224130044918A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F212345C1EF224130044918A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F212345F1EF224130044918A /* QJWeixinLogin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QJWeixinLogin.xcdatamodel; sourceTree = "<group>"; };
+		F21234611EF224130044918A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F21234641EF224130044918A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F21234661EF224130044918A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F212346B1EF224130044918A /* QJWeixinLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QJWeixinLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F212346F1EF224130044918A /* QJWeixinLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJWeixinLoginTests.m; sourceTree = "<group>"; };
+		F21234711EF224130044918A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21234761EF224130044918A /* QJWeixinLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QJWeixinLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F212347A1EF224130044918A /* QJWeixinLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJWeixinLoginUITests.m; sourceTree = "<group>"; };
+		F212347C1EF224130044918A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F212344C1EF224130044918A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21234681EF224130044918A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21234731EF224130044918A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F21234461EF224130044918A = {
+			isa = PBXGroup;
+			children = (
+				F21234511EF224130044918A /* QJWeixinLogin */,
+				F212346E1EF224130044918A /* QJWeixinLoginTests */,
+				F21234791EF224130044918A /* QJWeixinLoginUITests */,
+				F21234501EF224130044918A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F21234501EF224130044918A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F212344F1EF224130044918A /* QJWeixinLogin.app */,
+				F212346B1EF224130044918A /* QJWeixinLoginTests.xctest */,
+				F21234761EF224130044918A /* QJWeixinLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F21234511EF224130044918A /* QJWeixinLogin */ = {
+			isa = PBXGroup;
+			children = (
+				F21234551EF224130044918A /* AppDelegate.h */,
+				F21234561EF224130044918A /* AppDelegate.m */,
+				F21234581EF224130044918A /* ViewController.h */,
+				F21234591EF224130044918A /* ViewController.m */,
+				F212345B1EF224130044918A /* Main.storyboard */,
+				F21234611EF224130044918A /* Assets.xcassets */,
+				F21234631EF224130044918A /* LaunchScreen.storyboard */,
+				F21234661EF224130044918A /* Info.plist */,
+				F212345E1EF224130044918A /* QJWeixinLogin.xcdatamodeld */,
+				F21234521EF224130044918A /* Supporting Files */,
+			);
+			path = QJWeixinLogin;
+			sourceTree = "<group>";
+		};
+		F21234521EF224130044918A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F21234531EF224130044918A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F212346E1EF224130044918A /* QJWeixinLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				F212346F1EF224130044918A /* QJWeixinLoginTests.m */,
+				F21234711EF224130044918A /* Info.plist */,
+			);
+			path = QJWeixinLoginTests;
+			sourceTree = "<group>";
+		};
+		F21234791EF224130044918A /* QJWeixinLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F212347A1EF224130044918A /* QJWeixinLoginUITests.m */,
+				F212347C1EF224130044918A /* Info.plist */,
+			);
+			path = QJWeixinLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F212344E1EF224130044918A /* QJWeixinLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F212347F1EF224130044918A /* Build configuration list for PBXNativeTarget "QJWeixinLogin" */;
+			buildPhases = (
+				F212344B1EF224130044918A /* Sources */,
+				F212344C1EF224130044918A /* Frameworks */,
+				F212344D1EF224130044918A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QJWeixinLogin;
+			productName = QJWeixinLogin;
+			productReference = F212344F1EF224130044918A /* QJWeixinLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F212346A1EF224130044918A /* QJWeixinLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21234821EF224130044918A /* Build configuration list for PBXNativeTarget "QJWeixinLoginTests" */;
+			buildPhases = (
+				F21234671EF224130044918A /* Sources */,
+				F21234681EF224130044918A /* Frameworks */,
+				F21234691EF224130044918A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F212346D1EF224130044918A /* PBXTargetDependency */,
+			);
+			name = QJWeixinLoginTests;
+			productName = QJWeixinLoginTests;
+			productReference = F212346B1EF224130044918A /* QJWeixinLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F21234751EF224130044918A /* QJWeixinLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21234851EF224130044918A /* Build configuration list for PBXNativeTarget "QJWeixinLoginUITests" */;
+			buildPhases = (
+				F21234721EF224130044918A /* Sources */,
+				F21234731EF224130044918A /* Frameworks */,
+				F21234741EF224130044918A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F21234781EF224130044918A /* PBXTargetDependency */,
+			);
+			name = QJWeixinLoginUITests;
+			productName = QJWeixinLoginUITests;
+			productReference = F21234761EF224130044918A /* QJWeixinLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F21234471EF224130044918A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = yiniu;
+				TargetAttributes = {
+					F212344E1EF224130044918A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5XP7V8XFSX;
+						ProvisioningStyle = Automatic;
+					};
+					F212346A1EF224130044918A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5XP7V8XFSX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F212344E1EF224130044918A;
+					};
+					F21234751EF224130044918A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5XP7V8XFSX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F212344E1EF224130044918A;
+					};
+				};
+			};
+			buildConfigurationList = F212344A1EF224130044918A /* Build configuration list for PBXProject "QJWeixinLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F21234461EF224130044918A;
+			productRefGroup = F21234501EF224130044918A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F212344E1EF224130044918A /* QJWeixinLogin */,
+				F212346A1EF224130044918A /* QJWeixinLoginTests */,
+				F21234751EF224130044918A /* QJWeixinLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F212344D1EF224130044918A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21234651EF224130044918A /* LaunchScreen.storyboard in Resources */,
+				F21234621EF224130044918A /* Assets.xcassets in Resources */,
+				F212345D1EF224130044918A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21234691EF224130044918A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21234741EF224130044918A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F212344B1EF224130044918A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F212345A1EF224130044918A /* ViewController.m in Sources */,
+				F21234571EF224130044918A /* AppDelegate.m in Sources */,
+				F21234601EF224130044918A /* QJWeixinLogin.xcdatamodeld in Sources */,
+				F21234541EF224130044918A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21234671EF224130044918A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21234701EF224130044918A /* QJWeixinLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21234721EF224130044918A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F212347B1EF224130044918A /* QJWeixinLoginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F212346D1EF224130044918A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F212344E1EF224130044918A /* QJWeixinLogin */;
+			targetProxy = F212346C1EF224130044918A /* PBXContainerItemProxy */;
+		};
+		F21234781EF224130044918A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F212344E1EF224130044918A /* QJWeixinLogin */;
+			targetProxy = F21234771EF224130044918A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F212345B1EF224130044918A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F212345C1EF224130044918A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F21234631EF224130044918A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F21234641EF224130044918A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F212347D1EF224130044918A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F212347E1EF224130044918A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F21234801EF224130044918A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5XP7V8XFSX;
+				INFOPLIST_FILE = QJWeixinLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiniu.QJWeixinLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F21234811EF224130044918A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5XP7V8XFSX;
+				INFOPLIST_FILE = QJWeixinLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiniu.QJWeixinLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F21234831EF224130044918A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5XP7V8XFSX;
+				INFOPLIST_FILE = QJWeixinLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiniu.QJWeixinLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QJWeixinLogin.app/QJWeixinLogin";
+			};
+			name = Debug;
+		};
+		F21234841EF224130044918A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5XP7V8XFSX;
+				INFOPLIST_FILE = QJWeixinLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiniu.QJWeixinLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QJWeixinLogin.app/QJWeixinLogin";
+			};
+			name = Release;
+		};
+		F21234861EF224130044918A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5XP7V8XFSX;
+				INFOPLIST_FILE = QJWeixinLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiniu.QJWeixinLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QJWeixinLogin;
+			};
+			name = Debug;
+		};
+		F21234871EF224130044918A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5XP7V8XFSX;
+				INFOPLIST_FILE = QJWeixinLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiniu.QJWeixinLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QJWeixinLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F212344A1EF224130044918A /* Build configuration list for PBXProject "QJWeixinLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F212347D1EF224130044918A /* Debug */,
+				F212347E1EF224130044918A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F212347F1EF224130044918A /* Build configuration list for PBXNativeTarget "QJWeixinLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21234801EF224130044918A /* Debug */,
+				F21234811EF224130044918A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F21234821EF224130044918A /* Build configuration list for PBXNativeTarget "QJWeixinLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21234831EF224130044918A /* Debug */,
+				F21234841EF224130044918A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F21234851EF224130044918A /* Build configuration list for PBXNativeTarget "QJWeixinLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21234861EF224130044918A /* Debug */,
+				F21234871EF224130044918A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F212345E1EF224130044918A /* QJWeixinLogin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F212345F1EF224130044918A /* QJWeixinLogin.xcdatamodel */,
+			);
+			currentVersion = F212345F1EF224130044918A /* QJWeixinLogin.xcdatamodel */;
+			path = QJWeixinLogin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F21234471EF224130044918A /* Project object */;
+}
