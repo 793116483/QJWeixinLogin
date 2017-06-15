@@ -13,7 +13,7 @@
 #import <UMSocialCore/UMSocialCore.h>
 #import "WXApi.h"
 
-@interface AppDelegate ()<WXApiDelegate>
+@interface AppDelegate ()
 
 @end
 

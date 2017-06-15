@@ -39,10 +39,16 @@
 		F21234D21EF229580044918A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234D11EF229580044918A /* Security.framework */; };
 		F21234D41EF229620044918A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234D31EF229620044918A /* CoreTelephony.framework */; };
 		F21234D61EF2296C0044918A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234D51EF2296C0044918A /* CFNetwork.framework */; };
-		F21234DD1EF22F930044918A /* ThirdPartyLoginTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F21234DB1EF22F930044918A /* ThirdPartyLoginTools.m */; };
 		F21234E11EF259000044918A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234E01EF259000044918A /* CoreGraphics.framework */; };
 		F21234E31EF259140044918A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234E21EF259140044918A /* libsqlite3.tbd */; };
 		F21234E51EF259300044918A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234E41EF259300044918A /* ImageIO.framework */; };
+		F21234F41EF265C00044918A /* QJDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F21234E91EF265C00044918A /* QJDownloadManager.m */; };
+		F21234F51EF265C00044918A /* QJDownloadProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F21234EB1EF265C00044918A /* QJDownloadProgressView.m */; };
+		F21234F61EF265C00044918A /* QJFileManeger.m in Sources */ = {isa = PBXBuildFile; fileRef = F21234ED1EF265C00044918A /* QJFileManeger.m */; };
+		F21234F71EF265C00044918A /* QJImagePathHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = F21234EF1EF265C00044918A /* QJImagePathHandle.m */; };
+		F21234F81EF265C00044918A /* QJWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F21234F11EF265C00044918A /* QJWebImageManager.m */; };
+		F21234F91EF265C00044918A /* UIImageView+QJWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F21234F31EF265C00044918A /* UIImageView+QJWebImage.m */; };
+		F21234FE1EF2663C0044918A /* ThirdPartyLoginTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F21234FD1EF2663C0044918A /* ThirdPartyLoginTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,12 +128,25 @@
 		F21234D11EF229580044918A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		F21234D31EF229620044918A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		F21234D51EF2296C0044918A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		F21234DB1EF22F930044918A /* ThirdPartyLoginTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdPartyLoginTools.m; path = ../ThirdPartyLoginTools.m; sourceTree = "<group>"; };
-		F21234DC1EF22F930044918A /* ThirdPartyLoginTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdPartyLoginTools.h; path = ../ThirdPartyLoginTools.h; sourceTree = "<group>"; };
-		F21234DF1EF2320D0044918A /* CommentHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentHeader.h; sourceTree = "<group>"; };
 		F21234E01EF259000044918A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F21234E21EF259140044918A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		F21234E41EF259300044918A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		F21234E71EF265C00044918A /* CommentHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentHeader.h; sourceTree = "<group>"; };
+		F21234E81EF265C00044918A /* QJDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJDownloadManager.h; sourceTree = "<group>"; };
+		F21234E91EF265C00044918A /* QJDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJDownloadManager.m; sourceTree = "<group>"; };
+		F21234EA1EF265C00044918A /* QJDownloadProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJDownloadProgressView.h; sourceTree = "<group>"; };
+		F21234EB1EF265C00044918A /* QJDownloadProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJDownloadProgressView.m; sourceTree = "<group>"; };
+		F21234EC1EF265C00044918A /* QJFileManeger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJFileManeger.h; sourceTree = "<group>"; };
+		F21234ED1EF265C00044918A /* QJFileManeger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJFileManeger.m; sourceTree = "<group>"; };
+		F21234EE1EF265C00044918A /* QJImagePathHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJImagePathHandle.h; sourceTree = "<group>"; };
+		F21234EF1EF265C00044918A /* QJImagePathHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJImagePathHandle.m; sourceTree = "<group>"; };
+		F21234F01EF265C00044918A /* QJWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJWebImageManager.h; sourceTree = "<group>"; };
+		F21234F11EF265C00044918A /* QJWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJWebImageManager.m; sourceTree = "<group>"; };
+		F21234F21EF265C00044918A /* UIImageView+QJWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+QJWebImage.h"; sourceTree = "<group>"; };
+		F21234F31EF265C00044918A /* UIImageView+QJWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+QJWebImage.m"; sourceTree = "<group>"; };
+		F21234FB1EF2663C0044918A /* CommentHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentHeader.h; sourceTree = "<group>"; };
+		F21234FC1EF2663C0044918A /* ThirdPartyLoginTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdPartyLoginTools.h; sourceTree = "<group>"; };
+		F21234FD1EF2663C0044918A /* ThirdPartyLoginTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdPartyLoginTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,7 +219,6 @@
 		F21234511EF224130044918A /* QJWeixinLogin */ = {
 			isa = PBXGroup;
 			children = (
-				F21234DE1EF22F9E0044918A /* ThirdPartyLoginTools */,
 				F21234551EF224130044918A /* AppDelegate.h */,
 				F21234561EF224130044918A /* AppDelegate.m */,
 				F21234581EF224130044918A /* ViewController.h */,
@@ -218,6 +236,8 @@
 		F21234521EF224130044918A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F21234FA1EF2663C0044918A /* ThirdPartyLoginTools */,
+				F21234E61EF265C00044918A /* QJWebImage */,
 				F21234881EF224AB0044918A /* UMSocial */,
 				F21234531EF224130044918A /* main.m */,
 			);
@@ -365,14 +385,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F21234DE1EF22F9E0044918A /* ThirdPartyLoginTools */ = {
+		F21234E61EF265C00044918A /* QJWebImage */ = {
 			isa = PBXGroup;
 			children = (
-				F21234DF1EF2320D0044918A /* CommentHeader.h */,
-				F21234DB1EF22F930044918A /* ThirdPartyLoginTools.m */,
-				F21234DC1EF22F930044918A /* ThirdPartyLoginTools.h */,
+				F21234E71EF265C00044918A /* CommentHeader.h */,
+				F21234E81EF265C00044918A /* QJDownloadManager.h */,
+				F21234E91EF265C00044918A /* QJDownloadManager.m */,
+				F21234EA1EF265C00044918A /* QJDownloadProgressView.h */,
+				F21234EB1EF265C00044918A /* QJDownloadProgressView.m */,
+				F21234EC1EF265C00044918A /* QJFileManeger.h */,
+				F21234ED1EF265C00044918A /* QJFileManeger.m */,
+				F21234EE1EF265C00044918A /* QJImagePathHandle.h */,
+				F21234EF1EF265C00044918A /* QJImagePathHandle.m */,
+				F21234F01EF265C00044918A /* QJWebImageManager.h */,
+				F21234F11EF265C00044918A /* QJWebImageManager.m */,
+				F21234F21EF265C00044918A /* UIImageView+QJWebImage.h */,
+				F21234F31EF265C00044918A /* UIImageView+QJWebImage.m */,
 			);
-			name = ThirdPartyLoginTools;
+			path = QJWebImage;
+			sourceTree = "<group>";
+		};
+		F21234FA1EF2663C0044918A /* ThirdPartyLoginTools */ = {
+			isa = PBXGroup;
+			children = (
+				F21234FB1EF2663C0044918A /* CommentHeader.h */,
+				F21234FC1EF2663C0044918A /* ThirdPartyLoginTools.h */,
+				F21234FD1EF2663C0044918A /* ThirdPartyLoginTools.m */,
+			);
+			path = ThirdPartyLoginTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -516,10 +556,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F21234FE1EF2663C0044918A /* ThirdPartyLoginTools.m in Sources */,
 				F212345A1EF224130044918A /* ViewController.m in Sources */,
 				F21234571EF224130044918A /* AppDelegate.m in Sources */,
 				F21234601EF224130044918A /* QJWeixinLogin.xcdatamodeld in Sources */,
-				F21234DD1EF22F930044918A /* ThirdPartyLoginTools.m in Sources */,
+				F21234F81EF265C00044918A /* QJWebImageManager.m in Sources */,
+				F21234F61EF265C00044918A /* QJFileManeger.m in Sources */,
+				F21234F41EF265C00044918A /* QJDownloadManager.m in Sources */,
+				F21234F71EF265C00044918A /* QJImagePathHandle.m in Sources */,
+				F21234F91EF265C00044918A /* UIImageView+QJWebImage.m in Sources */,
+				F21234F51EF265C00044918A /* QJDownloadProgressView.m in Sources */,
 				F21234541EF224130044918A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

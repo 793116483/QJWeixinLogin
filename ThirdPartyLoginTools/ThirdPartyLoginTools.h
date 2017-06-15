@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <UMSocialCore/UMSocialCore.h>
 
 
 typedef enum : NSUInteger {
@@ -17,6 +18,14 @@ typedef enum : NSUInteger {
 } ThirdPartyPlatformType;
 
 
+@protocol ThirdPartyLoginToolsDelegate <NSObject>
+
+@required
+-(void)loginToolsWithUserMessgate:(UMSocialUserInfoResponse *)response ;
+
+@end
+
+
 @interface ThirdPartyLoginTools : NSObject
 
 /**
@@ -24,20 +33,20 @@ typedef enum : NSUInteger {
  *
  *  @param controller
  */
-+(void)sinaLogin:(UIViewController *)controller  delegate:(id) delegate;
++(void)sinaLogin:(UIViewController *)controller  delegate:(id<ThirdPartyLoginToolsDelegate>) delegate;
 /**
  *  微信登陆
  *
  *  @param controller
  */
-+(void)weChatLogin:(UIViewController *)controller delegate:(id) delegate;
++(void)weChatLogin:(UIViewController *)controller delegate:(id<ThirdPartyLoginToolsDelegate>) delegate;
 /**
  *  QQ登陆
  *
  *  @param controller
  */
 
-+(void)qqLogin:(UIViewController *)controller delegate:(id) delegate;
++(void)qqLogin:(UIViewController *)controller delegate:(id<ThirdPartyLoginToolsDelegate>) delegate;
 
 /**
  *
@@ -45,7 +54,7 @@ typedef enum : NSUInteger {
  *  @param platformName 平台名字
  *  @param controller
  */
-+(void)loginWithPlatformName:(ThirdPartyPlatformType)type withController:(UIViewController *)controller  delegate:(id) delegate;
++(void)loginWithPlatformName:(ThirdPartyPlatformType)type withController:(UIViewController *)controller  delegate:(id<ThirdPartyLoginToolsDelegate>) delegate;
 
 /**
  *  第三方授权成功，登陆接口
