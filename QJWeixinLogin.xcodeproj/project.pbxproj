@@ -32,6 +32,13 @@
 		F21234C11EF224AB0044918A /* UMSocialNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234B01EF224AB0044918A /* UMSocialNetwork.framework */; };
 		F21234C21EF224AB0044918A /* UMSocialSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F21234B21EF224AB0044918A /* UMSocialSDKResources.bundle */; };
 		F21234C31EF224AB0044918A /* UShareUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234B31EF224AB0044918A /* UShareUI.framework */; };
+		F21234CA1EF2291B0044918A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234C91EF2291B0044918A /* SystemConfiguration.framework */; };
+		F21234CC1EF229330044918A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234CB1EF229330044918A /* libz.tbd */; };
+		F21234CE1EF2293D0044918A /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234CD1EF2293D0044918A /* libsqlite3.0.tbd */; };
+		F21234D01EF2294C0044918A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234CF1EF2294C0044918A /* libc++.tbd */; };
+		F21234D21EF229580044918A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234D11EF229580044918A /* Security.framework */; };
+		F21234D41EF229620044918A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234D31EF229620044918A /* CoreTelephony.framework */; };
+		F21234D61EF2296C0044918A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234D51EF2296C0044918A /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +111,13 @@
 		F21234B01EF224AB0044918A /* UMSocialNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMSocialNetwork.framework; sourceTree = "<group>"; };
 		F21234B21EF224AB0044918A /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResources.bundle; sourceTree = "<group>"; };
 		F21234B31EF224AB0044918A /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
+		F21234C91EF2291B0044918A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F21234CB1EF229330044918A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F21234CD1EF2293D0044918A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		F21234CF1EF2294C0044918A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		F21234D11EF229580044918A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F21234D31EF229620044918A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F21234D51EF2296C0044918A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +125,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F21234D61EF2296C0044918A /* CFNetwork.framework in Frameworks */,
+				F21234D41EF229620044918A /* CoreTelephony.framework in Frameworks */,
+				F21234D21EF229580044918A /* Security.framework in Frameworks */,
+				F21234D01EF2294C0044918A /* libc++.tbd in Frameworks */,
+				F21234CE1EF2293D0044918A /* libsqlite3.0.tbd in Frameworks */,
+				F21234CC1EF229330044918A /* libz.tbd in Frameworks */,
+				F21234CA1EF2291B0044918A /* SystemConfiguration.framework in Frameworks */,
 				F21234B81EF224AB0044918A /* libSocialRenren.a in Frameworks */,
 				F21234BA1EF224AB0044918A /* libWeiboSDK.a in Frameworks */,
 				F21234C11EF224AB0044918A /* UMSocialNetwork.framework in Frameworks */,
@@ -149,6 +170,7 @@
 				F212346E1EF224130044918A /* QJWeixinLoginTests */,
 				F21234791EF224130044918A /* QJWeixinLoginUITests */,
 				F21234501EF224130044918A /* Products */,
+				F21234C81EF2291B0044918A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -310,6 +332,20 @@
 				F21234B31EF224AB0044918A /* UShareUI.framework */,
 			);
 			path = UMSocialUI;
+			sourceTree = "<group>";
+		};
+		F21234C81EF2291B0044918A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F21234D51EF2296C0044918A /* CFNetwork.framework */,
+				F21234D31EF229620044918A /* CoreTelephony.framework */,
+				F21234D11EF229580044918A /* Security.framework */,
+				F21234CF1EF2294C0044918A /* libc++.tbd */,
+				F21234CD1EF2293D0044918A /* libsqlite3.0.tbd */,
+				F21234CB1EF229330044918A /* libz.tbd */,
+				F21234C91EF2291B0044918A /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -722,6 +758,7 @@
 				F21234811EF224130044918A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F21234821EF224130044918A /* Build configuration list for PBXNativeTarget "QJWeixinLoginTests" */ = {
 			isa = XCConfigurationList;
@@ -730,6 +767,7 @@
 				F21234841EF224130044918A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F21234851EF224130044918A /* Build configuration list for PBXNativeTarget "QJWeixinLoginUITests" */ = {
 			isa = XCConfigurationList;
@@ -738,6 +776,7 @@
 				F21234871EF224130044918A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
