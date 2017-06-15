@@ -39,6 +39,7 @@
 		F21234D21EF229580044918A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234D11EF229580044918A /* Security.framework */; };
 		F21234D41EF229620044918A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234D31EF229620044918A /* CoreTelephony.framework */; };
 		F21234D61EF2296C0044918A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234D51EF2296C0044918A /* CFNetwork.framework */; };
+		F21234DD1EF22F930044918A /* ThirdPartyLoginTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F21234DB1EF22F930044918A /* ThirdPartyLoginTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +119,8 @@
 		F21234D11EF229580044918A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		F21234D31EF229620044918A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		F21234D51EF2296C0044918A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F21234DB1EF22F930044918A /* ThirdPartyLoginTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdPartyLoginTools.m; path = ../ThirdPartyLoginTools.m; sourceTree = "<group>"; };
+		F21234DC1EF22F930044918A /* ThirdPartyLoginTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdPartyLoginTools.h; path = ../ThirdPartyLoginTools.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +190,7 @@
 		F21234511EF224130044918A /* QJWeixinLogin */ = {
 			isa = PBXGroup;
 			children = (
+				F21234DE1EF22F9E0044918A /* ThirdPartyLoginTools */,
 				F21234551EF224130044918A /* AppDelegate.h */,
 				F21234561EF224130044918A /* AppDelegate.m */,
 				F21234581EF224130044918A /* ViewController.h */,
@@ -348,6 +352,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F21234DE1EF22F9E0044918A /* ThirdPartyLoginTools */ = {
+			isa = PBXGroup;
+			children = (
+				F21234DB1EF22F930044918A /* ThirdPartyLoginTools.m */,
+				F21234DC1EF22F930044918A /* ThirdPartyLoginTools.h */,
+			);
+			name = ThirdPartyLoginTools;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -492,6 +505,7 @@
 				F212345A1EF224130044918A /* ViewController.m in Sources */,
 				F21234571EF224130044918A /* AppDelegate.m in Sources */,
 				F21234601EF224130044918A /* QJWeixinLogin.xcdatamodeld in Sources */,
+				F21234DD1EF22F930044918A /* ThirdPartyLoginTools.m in Sources */,
 				F21234541EF224130044918A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
