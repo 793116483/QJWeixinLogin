@@ -9,24 +9,54 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
+#import "CommentHeader.h"
+#import <UMSocialCore/UMSocialCore.h>
+#import "WXApi.h"
 
-@interface AppDelegate ()
+@interface AppDelegate ()<WXApiDelegate>
 
 @end
 
 @implementation AppDelegate
 
+// 初始化环境
+-(void)initEnvironment
+{
+    //打开调试日志
+    [[UMSocialManager defaultManager] openLog:YES];
+    
+    //设置友盟AppKey
+    [[UMSocialManager defaultManager] setUmSocialAppkey:kUMengAppKey];
+    
+    //设置微信的appKey和appSecret
+    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_WechatSession appKey:kTestWxAppId appSecret:kTestWxAppSecret redirectURL:@"http://mobile.umeng.com/social"];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
         // Override point for customization after application launch.
     
-        self.window = [[UIWindow alloc] init];
-        self.window.backgroundColor = [UIColor grayColor];
-        self.window.rootViewController = [[ViewController alloc] init];
+    // 初始化微信登录环境
+    [self initEnvironment];
     
-        [self.window makeKeyAndVisible];
+    
+    self.window = [[UIWindow alloc] init];
+    self.window.backgroundColor = [UIColor grayColor];
+    self.window.rootViewController = [[ViewController alloc] init];
+    
+    [self.window makeKeyAndVisible];
 
     return YES;
+}
+
+
+#pragma mark - 回调
+-(BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options
+{
+    return [[UMSocialManager defaultManager] handleOpenURL:url];
+}
+-(BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
+    return [[UMSocialManager defaultManager] handleOpenURL:url];
 }
 
 

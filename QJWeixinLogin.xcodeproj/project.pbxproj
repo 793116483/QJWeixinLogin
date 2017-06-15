@@ -40,6 +40,9 @@
 		F21234D41EF229620044918A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234D31EF229620044918A /* CoreTelephony.framework */; };
 		F21234D61EF2296C0044918A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234D51EF2296C0044918A /* CFNetwork.framework */; };
 		F21234DD1EF22F930044918A /* ThirdPartyLoginTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F21234DB1EF22F930044918A /* ThirdPartyLoginTools.m */; };
+		F21234E11EF259000044918A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234E01EF259000044918A /* CoreGraphics.framework */; };
+		F21234E31EF259140044918A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234E21EF259140044918A /* libsqlite3.tbd */; };
+		F21234E51EF259300044918A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21234E41EF259300044918A /* ImageIO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +125,9 @@
 		F21234DB1EF22F930044918A /* ThirdPartyLoginTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdPartyLoginTools.m; path = ../ThirdPartyLoginTools.m; sourceTree = "<group>"; };
 		F21234DC1EF22F930044918A /* ThirdPartyLoginTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdPartyLoginTools.h; path = ../ThirdPartyLoginTools.h; sourceTree = "<group>"; };
 		F21234DF1EF2320D0044918A /* CommentHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentHeader.h; sourceTree = "<group>"; };
+		F21234E01EF259000044918A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F21234E21EF259140044918A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F21234E41EF259300044918A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +135,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F21234E51EF259300044918A /* ImageIO.framework in Frameworks */,
+				F21234E31EF259140044918A /* libsqlite3.tbd in Frameworks */,
+				F21234E11EF259000044918A /* CoreGraphics.framework in Frameworks */,
 				F21234D61EF2296C0044918A /* CFNetwork.framework in Frameworks */,
 				F21234D41EF229620044918A /* CoreTelephony.framework in Frameworks */,
 				F21234D21EF229580044918A /* Security.framework in Frameworks */,
@@ -202,7 +211,6 @@
 				F21234661EF224130044918A /* Info.plist */,
 				F212345E1EF224130044918A /* QJWeixinLogin.xcdatamodeld */,
 				F21234521EF224130044918A /* Supporting Files */,
-				F21234DF1EF2320D0044918A /* CommentHeader.h */,
 			);
 			path = QJWeixinLogin;
 			sourceTree = "<group>";
@@ -343,6 +351,9 @@
 		F21234C81EF2291B0044918A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F21234E41EF259300044918A /* ImageIO.framework */,
+				F21234E21EF259140044918A /* libsqlite3.tbd */,
+				F21234E01EF259000044918A /* CoreGraphics.framework */,
 				F21234D51EF2296C0044918A /* CFNetwork.framework */,
 				F21234D31EF229620044918A /* CoreTelephony.framework */,
 				F21234D11EF229580044918A /* Security.framework */,
@@ -357,6 +368,7 @@
 		F21234DE1EF22F9E0044918A /* ThirdPartyLoginTools */ = {
 			isa = PBXGroup;
 			children = (
+				F21234DF1EF2320D0044918A /* CommentHeader.h */,
 				F21234DB1EF22F930044918A /* ThirdPartyLoginTools.m */,
 				F21234DC1EF22F930044918A /* ThirdPartyLoginTools.h */,
 			);
@@ -430,8 +442,8 @@
 				TargetAttributes = {
 					F212344E1EF224130044918A = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 5XP7V8XFSX;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = G2CVDA5594;
+						ProvisioningStyle = Manual;
 					};
 					F212346A1EF224130044918A = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -657,7 +669,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5XP7V8XFSX;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = G2CVDA5594;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/QJWeixinLogin/UMSocial/SocialLibraries/QQ",
@@ -674,8 +687,11 @@
 					"$(PROJECT_DIR)/QJWeixinLogin/UMSocial/SocialLibraries/Sina",
 					"$(PROJECT_DIR)/QJWeixinLogin/UMSocial/SocialLibraries/WeChat",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yiniu.QJWeixinLogin;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lawplus.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "735058a0-7a99-404b-8cc1-ab1ac20ea68e";
+				PROVISIONING_PROFILE_SPECIFIER = "development：com.lawplus.app";
 			};
 			name = Debug;
 		};
@@ -683,7 +699,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5XP7V8XFSX;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = G2CVDA5594;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/QJWeixinLogin/UMSocial/SocialLibraries/QQ",
@@ -700,8 +717,10 @@
 					"$(PROJECT_DIR)/QJWeixinLogin/UMSocial/SocialLibraries/Sina",
 					"$(PROJECT_DIR)/QJWeixinLogin/UMSocial/SocialLibraries/WeChat",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yiniu.QJWeixinLogin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lawplus.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "735058a0-7a99-404b-8cc1-ab1ac20ea68e";
+				PROVISIONING_PROFILE_SPECIFIER = "development：com.lawplus.app";
 			};
 			name = Release;
 		};

@@ -10,6 +10,8 @@
 //#import "UserInfoUtils.h"
 #import <UMSocialCore/UMSocialCore.h>
 #import "WXApi.h"
+#import "WeiboSDK.h"
+#import <TencentOpenAPI/TencentOAuth.h>
 
 @implementation ThirdPartyLoginTools
 
@@ -17,7 +19,7 @@
 +(void)sinaLogin:(UIViewController *)controller  delegate:(id) delegate
 {
 
-    if ([WXApi isWXAppInstalled]) {
+    if ([WeiboSDK isWeiboAppInstalled]) {
         [self loginWithPlatformName:ThirdPartyPlatformTypeSina withController:controller delegate:delegate];
     }
     else{
@@ -39,7 +41,7 @@
 +(void)qqLogin:(UIViewController *)controller delegate:(id) delegate
 {
 
-    if ([WXApi isWXAppInstalled]) {
+    if ([TencentOAuth iphoneQQInstalled]) {
         [self loginWithPlatformName:ThirdPartyPlatformTypeQQ withController:controller delegate:delegate];
     }
     else{
