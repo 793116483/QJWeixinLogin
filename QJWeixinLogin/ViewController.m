@@ -16,13 +16,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    self.view.backgroundColor = [UIColor redColor];
+    
+    UIButton * weixinLogin = [[UIButton alloc] init];
+    [weixinLogin setTitle:@"微信登录" forState:UIControlStateNormal];
+    [weixinLogin setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    weixinLogin.backgroundColor = [UIColor whiteColor];
+    [weixinLogin addTarget:self action:@selector(weixinLoginBtnDidClicked) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:weixinLogin];
+    weixinLogin.bounds = CGRectMake(0, 0, 100, 100);
+    weixinLogin.center = self.view.center ;
+    
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)weixinLoginBtnDidClicked
+{
+    NSLog(@"weixinLoginBtnDidClicked");
 }
 
 
